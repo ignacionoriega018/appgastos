@@ -1,0 +1,5 @@
+{
+  "name": "MinimSpend",
+  "description": "A minimalist, AI-powered personal expense tracker with local data storage and intelligent financial insights.",
+  "requestFramePermissions": []
+}
