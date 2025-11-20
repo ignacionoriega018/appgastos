@@ -26,18 +26,5 @@
   </head>
   <body>
     <div id="root"></div>
-
-    <!-- ENTRYPOINT DE VITE (obligatorio) -->
-<script type="module" src="/appgastos/index.tsx"></script>
-
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./service-worker.js')
-            .then(reg => console.log('SW registered', reg))
-            .catch(err => console.log('SW failed', err));
-        });
-      }
-    </script>
   </body>
 </html>
